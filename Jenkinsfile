@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'docker build -t krish-devops-app ./app'
+                sh 'docker build -t krish-devops ./app'
             }
         }
         stage('Test') {
